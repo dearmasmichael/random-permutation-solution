@@ -32,7 +32,7 @@ Requires:
 Run the following commands in Windows CMD or PowerShell:
 
 :: Clone the repository
-git clone https://github.com/<your-username>/RandomPermutationSolution.git
+git clone https://github.com/dearmasmichael/random-permutation-solution.git
 
 :: Navigate into the solution folder
 cd RandomPermutationSolution
