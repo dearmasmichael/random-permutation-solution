@@ -37,7 +37,7 @@ cd MichaelSolution
 :: Clone the repository:  
 git clone https://github.com/dearmasmichael/random-permutation-solution.git
 
-:: Step into the VS solution folder that just created:  
+:: Step into the (just created) VS solution folder:  
 cd random-permutation-solution 
 
 :: Build the solution:  
