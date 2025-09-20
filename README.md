@@ -55,7 +55,7 @@ dotnet test RandomPermutationTests --logger "console;verbosity=detailed"
 :: Run only the object-oriented version tests:  
 dotnet test RandomPermutationOOTests --logger "console;verbosity=detailed"
 
-##Notes
+## Notes
 
 - Output includes a summary of the permutation (length, uniqueness check, range, sample of first 20 values).
 - The full permutation is dumped into a timestamped text file inside a permutations folder.
