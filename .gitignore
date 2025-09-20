@@ -1,0 +1,68 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.config.user
+*.resharper
+*.resharper.user
+*.dbmdl
+*.jfm
+[Ll]icense.[Tt]xt
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Pp]ermutations/
+*.dll
+*.exe
+*.pdb
+*.tmp
+*.log
+*.bak
+*.old
+*.obj
+*.lib
+*.ncb
+*.sdf
+*.vshost.*
+[Tt]humbs.db
+*.cache
+*.aps
+
+# Packages
+packages/
+
+# Project files
+*.csproj.user
+*.vcxproj.user
+*.filters
+*.vcproj
+*.tlb
+*.tlh
+*.bak
+*.ilk
+*.aps
+*.pch
+*.ipch
+*.pgc
+*.pgd
+*.meta
+*.log
+*.sbr
+*.bsc
+*.mpf
+*.res
+*.res.old
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.dll.config
