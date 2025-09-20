@@ -16,10 +16,10 @@ It ensures:
 
 ## Projects in this Solution
 
-- RandomPermutationApp – functional/static version (simple static method).
-- RandomPermutationTests – unit tests for the functional version.
-- RandomPermutationOOApp – object-oriented version encapsulated in a class.
-- RandomPermutationOOTests – unit tests for the OO version.
+- RandomPermutationApp (functional/static version (simple static method))
+- RandomPermutationTests (unit tests for the functional version)
+- RandomPermutationOOApp (object-oriented version encapsulated in a class)
+- RandomPermutationOOTests (unit tests for the OO version)
 
 ---
 
@@ -31,28 +31,28 @@ Requires:
 
 Run the following commands in Windows CMD or PowerShell:
 
-:: Clone the repository
+:: Clone the repository:  
 git clone https://github.com/dearmasmichael/random-permutation-solution.git
 
-:: Navigate into the solution folder
+:: Navigate into the folder where you want to 'copy' the solution, for example:  
 cd RandomPermutationSolution
 
-:: Build the solution
+:: Build the solution:  
 dotnet build
 
-:: Run the functional version
+:: Run the functional version:  
 dotnet run --project RandomPermutationApp
 
-:: Run the object-oriented version
+:: Run the object-oriented version:  
 dotnet run --project RandomPermutationOOApp
 
-:: Run all tests (functional + OO)
+:: Run all tests (functional + OO):  
 dotnet test --logger "console;verbosity=detailed"
 
-:: Run only the functional version tests
+:: Run only the functional version tests:  
 dotnet test RandomPermutationTests --logger "console;verbosity=detailed"
 
-:: Run only the object-oriented version tests
+:: Run only the object-oriented version tests:  
 dotnet test RandomPermutationOOTests --logger "console;verbosity=detailed"
 
 ##Notes
