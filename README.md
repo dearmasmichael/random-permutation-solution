@@ -31,11 +31,14 @@ Requires:
 
 Run the following commands in Windows CMD or PowerShell:
 
+:: Navigate into (or create) the folder where you want to 'copy' the solution, for example:  
+cd MichaelSolution
+
 :: Clone the repository:  
 git clone https://github.com/dearmasmichael/random-permutation-solution.git
 
-:: Navigate into the folder where you want to 'copy' the solution, for example:  
-cd RandomPermutationSolution
+:: Step into the VS solution folder that just created:  
+cd random-permutation-solution 
 
 :: Build the solution:  
 dotnet build
