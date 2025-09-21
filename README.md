@@ -27,17 +27,17 @@ It ensures:
 
 Requires:
 - [.NET 9.0 SDK](https://dotnet.microsoft.com/download)  
-- [Git](https://git-scm.com/downloads) to clone the repository  
+- [Git](https://git-scm.com/downloads) to clone the repository. Alternatively, you could use other ways to clone/download the code from gitHub as explained [here](https://www.youtube.com/watch?v=ZFFtMyOFPe8)  
 
 Run the following commands in Windows CMD or PowerShell:
 
 :: Navigate into (or create) the folder where you want to 'copy' the solution, for example:  
-cd MichaelSolution
+cd MdearmasSolutions
 
 :: Clone the repository:  
 git clone https://github.com/dearmasmichael/random-permutation-solution.git
 
-:: Step into the VS solution folder that just created:  
+:: Step into the (just created) VS solution folder:  
 cd random-permutation-solution 
 
 :: Build the solution:  
