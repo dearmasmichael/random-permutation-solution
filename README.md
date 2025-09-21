@@ -32,7 +32,7 @@ Requires:
 Run the following commands in Windows CMD or PowerShell:
 
 :: Navigate into (or create) the folder where you want to 'copy' the solution, for example:  
-cd MichaelSolutions
+cd MdearmasSolutions
 
 :: Clone the repository:  
 git clone https://github.com/dearmasmichael/random-permutation-solution.git
